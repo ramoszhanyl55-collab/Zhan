@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dolce Brezza Café &amp; Roastery - Freshly brewed artisanal coffee, handcrafted pastries, and a relaxing coastal atmosphere. Explore our seasonal menu or join our passionate team.">
+  <meta name="theme-color" content="#E1903E">
+  <title>Dolce Brezza | Artisanal Café &amp; Roastery</title>
+
+  <!-- Google Fonts: Outfit and Playfair Display -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Relative Stylesheet Link -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Accessible Skip to Main Content Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ========================================================
+       1. NAVBAR / HEADER
+       ======================================================== -->
+  <header class="site-header" id="site-header" role="banner">
+    <div class="header-container">
+      <!-- Brand Logo / Title -->
+      <a href="./index.html" class="brand-link" aria-label="Dolce Brezza Café Home">
+        <img src="./assets/logo.svg" alt="Dolce Brezza Café and Roastery logo" width="210" height="52" class="brand-logo">
+      </a>
+
+      <!-- Primary Navigation -->
+      <nav class="primary-nav" id="primary-navigation" aria-label="Main Navigation">
+        <ul class="nav-list" role="list">
+          <li class="nav-item">
+            <a href="#hero" class="nav-link active" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#core-offerings" class="nav-link">Offerings</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about-experience" class="nav-link">Our Story</a>
+          </li>
+          <li class="nav-item">
+            <a href="#interactive-menu" class="nav-link">Menu &amp; Tasting</a>
+          </li>
+          <li class="nav-item">
+            <a href="#recruitment" class="nav-link">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions: Theme Switcher, CTA, and Mobile Toggle -->
+      <div class="header-actions">
+        <!-- Theme Toggle Button -->
+        <button type="button" class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle light and dark color theme" title="Toggle theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Navbar CTA Button -->
+        <a href="#interactive-menu" class="btn btn-primary nav-cta-btn">Order Ahead</a>
+
+        <!-- Mobile Hamburger Menu Button -->
+        <button type="button" class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-navigation">
+          <span class="hamburger-line" aria-hidden="true"></span>
+          <span class="hamburger-line" aria-hidden="true"></span>
+          <span class="hamburger-line" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================
+       MAIN CONTENT CONTAINER
+       ======================================================== -->
+  <main id="main-content">
+
+    <!-- ========================================================
+         2. HERO SECTION
+         ======================================================== -->
+    <section class="hero-section" id="hero" aria-labelledby="hero-title">
+      <div class="container hero-container">
+        <!-- Hero Text Content -->
+        <div class="hero-content">
+          <div class="badge-wrapper">
+            <span class="badge badge-accent">Artisanal Small-Batch Roastery</span>
+          </div>
+          <h1 id="hero-title" class="hero-title">
+            Savor the Gentle Breeze of Handcrafted Coffee
+          </h1>
+          <p class="hero-description">
+            Dolce Brezza welcomes you to a calming coastal sanctuary. Immerse yourself in the rich aromas of freshly ground single-origin beans, warm golden pastries baked at sunrise, and genuine hospitality.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#interactive-menu" class="btn btn-primary">
+              <span>Explore Seasonal Menu</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#recruitment" class="btn btn-outline">
+              <span>Join Our Team</span>
+            </a>
+          </div>
+
+          <!-- Quick Stats / Highlights -->
+          <div class="hero-stats" role="region" aria-label="Café Key Highlights">
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Direct Trade Beans</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">24hr</span>
+              <span class="stat-label">Slow Cold Brew</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">4.9★</span>
+              <span class="stat-label">Neighborhood Love</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual / Graphic -->
+        <div class="hero-visual">
+          <div class="image-frame">
+            <img src="./assets/hero-coffee.svg" alt="Steaming artisanal latte in ceramic cup surrounded by roasted coffee beans and warm lighting" class="hero-image" width="600" height="450" loading="eager">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         3. CORE CONTENT SECTION (Business Products/Services Showcase)
+         ======================================================== -->
+    <section class="core-content-section" id="core-offerings" aria-labelledby="core-heading">
+      <div class="container">
+        <!-- Section Header -->
+        <header class="section-header text-center">
+          <span class="section-tag">Crafted With Intention</span>
+          <h2 id="core-heading" class="section-title">Our Signature Offerings &amp; Specialties</h2>
+          <p class="section-subtitle">
+            Every roast, pour, and crumb is prepared by master baristas and bakers committed to sensory excellence.
+          </p>
+        </header>
+
+        <!-- Products / Services Grid -->
+        <div class="offerings-grid">
+          <!-- Card 1: Artisanal Espresso -->
+          <article class="offering-card" aria-labelledby="offering-espresso-title">
+            <div class="card-media">
+              <img src="./assets/espresso.svg" alt="Double shot espresso in slate ceramic cup with hazelnut crema" class="card-img" width="400" height="300" loading="lazy">
+              <span class="card-badge">Daily Roasts</span>
+            </div>
+            <div class="card-body">
+              <h3 id="offering-espresso-title" class="card-title">Artisanal Espresso &amp; Brews</h3>
+              <p class="card-description">
+                Extracted with precision temperature profiling. Enjoy bright floral Ethiopian Yirgacheffe or rich, chocolaty Colombian roasts.
+              </p>
+              <ul class="card-features" role="list">
+                <li>Double Ristretto Shots</li>
+                <li>Velvety Micro-foam Lattes</li>
+                <li>Single-Origin Pour Overs</li>
+              </ul>
+              <div class="card-footer">
+                <span class="card-price">From $3.75</span>
+                <a href="#interactive-menu" class="card-link" aria-label="Explore hot coffee menu items">View items &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Cold Brew & Refreshers -->
+          <article class="offering-card" aria-labelledby="offering-coldbrew-title">
+            <div class="card-media">
+              <img src="./assets/cold-brew.svg" alt="Chilled cold brew coffee in tall glass with orange garnish and ice cubes" class="card-img" width="400" height="300" loading="lazy">
+              <span class="card-badge">Slow Steeped</span>
+            </div>
+            <div class="card-body">
+              <h3 id="offering-coldbrew-title" class="card-title">Slow-Steeped Cold Brews</h3>
+              <p class="card-description">
+                Immersed in cold alkaline water for 24 hours. Exceptionally smooth, low in acidity, and served over handcrafted crystal clear ice.
+              </p>
+              <ul class="card-features" role="list">
+                <li>Vanilla Bean Nitro Tap</li>
+                <li>Citrus Tonic Espresso</li>
+                <li>Cascara Berry Spritzer</li>
+              </ul>
+              <div class="card-footer">
+                <span class="card-price">From $4.50</span>
+                <a href="#interactive-menu" class="card-link" aria-label="Explore cold brew menu items">View items &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Artisan Bakery -->
+          <article class="offering-card" aria-labelledby="offering-pastry-title">
+            <div class="card-media">
+              <img src="./assets/pastry.svg" alt="Golden flaky French butter croissant served on ceramic plate" class="card-img" width="400" height="300" loading="lazy">
+              <span class="card-badge">Baked Daily at 5 AM</span>
+            </div>
+            <div class="card-body">
+              <h3 id="offering-pastry-title" class="card-title">Gourmet Morning Viennoiserie</h3>
+              <p class="card-description">
+                Made using 100% French Normandy cultured butter. Layered to delicate perfection with crisp exteriors and soft, airy crumb structures.
+              </p>
+              <ul class="card-features" role="list">
+                <li>Traditional Butter Croissants</li>
+                <li>Valrhona Dark Pain au Chocolat</li>
+                <li>Almond Cardamom Swirls</li>
+              </ul>
+              <div class="card-footer">
+                <span class="card-price">From $4.00</span>
+                <a href="#interactive-menu" class="card-link" aria-label="Explore bakery menu items">View items &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4: Signature Confections -->
+          <article class="offering-card" aria-labelledby="offering-specialty-title">
+            <div class="card-media">
+              <img src="./assets/specialty.svg" alt="Layered caramel cinnamon iced macchiato in specialty glassware" class="card-img" width="400" height="300" loading="lazy">
+              <span class="card-badge">Dolce House Special</span>
+            </div>
+            <div class="card-body">
+              <h3 id="offering-specialty-title" class="card-title">Dolce Brezza Signatures</h3>
+              <p class="card-description">
+                Innovative seasonal creations featuring raw organic honey, Saigon cinnamon dust, and sweet oat cloud foams crafted in-house.
+              </p>
+              <ul class="card-features" role="list">
+                <li>Honey Breeze Macchiato</li>
+                <li>Salted Caramel Toffee Foam</li>
+                <li>Matcha Lavender Cloud</li>
+              </ul>
+              <div class="card-footer">
+                <span class="card-price">From $5.50</span>
+                <a href="#interactive-menu" class="card-link" aria-label="Explore signature creations menu items">View items &rarr;</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Experience & Café Story Subsection -->
+        <article class="experience-showcase" id="about-experience" aria-labelledby="experience-title">
+          <div class="experience-image-wrap">
+            <img src="./assets/ambiance.svg" alt="Peaceful cafe interior setting with warm hanging pendant lighting and green plant" class="experience-img" width="400" height="300" loading="lazy">
+          </div>
+          <div class="experience-content">
+            <span class="section-tag">The Dolce Brezza Way</span>
+            <h3 id="experience-title" class="experience-title">A Welcoming Haven for Mind, Work, &amp; Companionship</h3>
+            <p class="experience-text">
+              We conceived Dolce Brezza as more than just a morning stop—it is a serene gathering spot designed for unwinding, sparking conversations, or finding deep focus. Bask in warm sunlight, enjoy complimentary ultra-fast Wi-Fi, and let the gentle hum of our roastery set the tone for your day.
+            </p>
+            <div class="experience-perks-grid">
+              <div class="perk-box">
+                <strong class="perk-title">Organic &amp; Sustainable</strong>
+                <span class="perk-desc">Direct partnership with smallholder coffee farms.</span>
+              </div>
+              <div class="perk-box">
+                <strong class="perk-title">Remote-Friendly Spaces</strong>
+                <span class="perk-desc">Ergonomic seating, quiet nooks, and ample power outlets.</span>
+              </div>
+              <div class="perk-box">
+                <strong class="perk-title">Community Events</strong>
+                <span class="perk-desc">Weekend cupping sessions and local artisan markets.</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         4. INTERACTIVE COMPONENT CONTAINER
+         Filterable Menu + Live Search + Interactive Item Detail Modal
+         ======================================================== -->
+    <section class="interactive-section" id="interactive-menu" aria-labelledby="interactive-heading">
+      <div class="container">
+        <!-- Section Header -->
+        <header class="section-header text-center">
+          <span class="section-tag">Interactive Tasting Guide</span>
+          <h2 id="interactive-heading" class="section-title">Interactive Menu &amp; Flavour Explorer</h2>
+          <p class="section-subtitle">
+            Filter our offerings by dietary tags or category. Click on any item for origin details, tasting notes, and pairing suggestions.
+          </p>
+        </header>
+
+        <!-- Interactive Component Container -->
+        <div class="interactive-component-container" id="interactive-menu-container" role="region" aria-label="Interactive Menu Filter and Explorer">
+          <!-- Control Bar: Category Filters & Search Box -->
+          <div class="interactive-controls-bar">
+            <!-- Filter Tabs -->
+            <div class="filter-tabs" role="tablist" aria-label="Menu categories filter">
+              <button type="button" class="tab-btn active" role="tab" aria-selected="true" id="tab-all" aria-controls="interactive-items-grid" data-category="all">
+                All Selections
+              </button>
+              <button type="button" class="tab-btn" role="tab" aria-selected="false" id="tab-hot-coffee" aria-controls="interactive-items-grid" data-category="hot-coffee">
+                Hot &amp; Espresso
+              </button>
+              <button type="button" class="tab-btn" role="tab" aria-selected="false" id="tab-cold-brew" aria-controls="interactive-items-grid" data-category="cold-brew">
+                Cold Brews
+              </button>
+              <button type="button" class="tab-btn" role="tab" aria-selected="false" id="tab-bakery" aria-controls="interactive-items-grid" data-category="bakery">
+                Fresh Bakery
+              </button>
+              <button type="button" class="tab-btn" role="tab" aria-selected="false" id="tab-specialties" aria-controls="interactive-items-grid" data-category="specialties">
+                House Specials
+              </button>
+            </div>
+
+            <!-- Live Search Bar -->
+            <div class="search-wrapper">
+              <label for="menu-search-input" class="visually-hidden">Filter items by keyword or notes</label>
+              <div class="search-input-group">
+                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <input type="search" id="menu-search-input" class="search-input" placeholder="Search coffee, pastry, or notes..." autocomplete="off">
+              </div>
+            </div>
+          </div>
+
+          <!-- Dynamic Results Summary Counter -->
+          <div class="filter-status-row" aria-live="polite" id="filter-status-msg">
+            Showing <span id="item-count-display">8</span> handcrafted items
+          </div>
+
+          <!-- Interactive Menu Cards Grid -->
+          <div class="interactive-items-grid" id="interactive-items-grid" role="region" aria-live="polite" aria-label="Available menu items list">
+            
+            <!-- Item 1 -->
+            <article class="menu-item-card" data-category="hot-coffee" data-name="Golden Crema Espresso" data-price="3.75" data-origin="Huila, Colombia" data-notes="Dark Chocolate, Dried Fig, Roasted Almond" data-img="./assets/menu-espresso.svg">
+              <div class="menu-item-media">
+                <img src="./assets/menu-espresso.svg" alt="Golden Crema Espresso with rich hazelnut crema in slate cup" class="menu-item-img" width="400" height="260" loading="lazy">
+              </div>
+              <div class="menu-item-card-body">
+                <div class="menu-item-top">
+                  <span class="dietary-pill">Single Origin</span>
+                  <span class="menu-item-price">$3.75</span>
+                </div>
+                <h3 class="menu-item-title">Golden Crema Espresso</h3>
+                <p class="menu-item-desc">A syrupy double-ristretto with dense crema and notes of toasted pecan and black cherry.</p>
+                <div class="tasting-notes">
+                  <span class="note-label">Notes:</span> Dark Cocoa &bull; Hazelnut &bull; Plum
+                </div>
+                <button type="button" class="btn btn-detail view-detail-btn" aria-label="View flavor notes for Golden Crema Espresso" data-modal-target="item-1">
+                  View Tasting Notes
+                </button>
+              </div>
+            </article>
+
+            <!-- Item 2 -->
+            <article class="menu-item-card" data-category="hot-coffee" data-name="Velvet Honey Oat Flat White" data-price="4.85" data-origin="Guji, Ethiopia" data-notes="Wild Honey, Jasmine, Sweet Oat Milk" data-img="./assets/menu-flatwhite.svg">
+              <div class="menu-item-media">
+                <img src="./assets/menu-flatwhite.svg" alt="Velvet Honey Oat Flat White with delicate latte art and honey foam" class="menu-item-img" width="400" height="260" loading="lazy">
+              </div>
+              <div class="menu-item-card-body">
+                <div class="menu-item-top">
+                  <span class="dietary-pill">Dairy-Free Option</span>
+                  <span class="menu-item-price">$4.85</span>
+                </div>
+                <h3 class="menu-item-title">Velvet Honey Oat Flat White</h3>
+                <p class="menu-item-desc">Silky steamed organic oat milk folded gracefully over floral Ethiopian espresso and raw honey.</p>
+                <div class="tasting-notes">
+                  <span class="note-label">Notes:</span> Jasmine Blossom &bull; Honeycomb &bull; Toasted Oat
+                </div>
+                <button type="button" class="btn btn-detail view-detail-btn" aria-label="View flavor notes for Velvet Honey Oat Flat White" data-modal-target="item-2">
+                  View Tasting Notes
+                </button>
+              </div>
+            </article>
+
+            <!-- Item 3 -->
+            <article class="menu-item-card" data-category="cold-brew" data-name="Amber Citrus Nitro Brew" data-price="5.25" data-origin="Antigua, Guatemala" data-notes="Blood Orange, Cascara, Crisp Caramel" data-img="./assets/menu-citrus-nitro.svg">
+              <div class="menu-item-media">
+                <img src="./assets/menu-citrus-nitro.svg" alt="Amber Citrus Nitro Brew in tall glass with creamy cascading head and orange twist" class="menu-item-img" width="400" height="260" loading="lazy">
+              </div>
+              <div class="menu-item-card-body">
+                <div class="menu-item-top">
+                  <span class="dietary-pill">On Tap</span>
+                  <span class="menu-item-price">$5.25</span>
+                </div>
+                <h3 class="menu-item-title">Amber Citrus Nitro Brew</h3>
+                <p class="menu-item-desc">Infused with nitrogen for a creamy Guinness-like head, accented with expressed organic orange oils.</p>
+                <div class="tasting-notes">
+                  <span class="note-label">Notes:</span> Blood Orange &bull; Milk Chocolate &bull; Sweet Molasses
+                </div>
+                <button type="button" class="btn btn-detail view-detail-btn" aria-label="View flavor notes for Amber Citrus Nitro Brew" data-modal-target="item-3">
+                  View Tasting Notes
+                </button>
+              </div>
+            </article>
+
+            <!-- Item 4 -->
+            <article class="menu-item-card" data-category="cold-brew" data-name="Bourbon Barrel Cold Brew" data-price="5.75" data-origin="Minas Gerais, Brazil" data-notes="Vanilla Oak, Smoked Caramel, Toffee" data-img="./assets/menu-bourbon-coldbrew.svg">
+              <div class="menu-item-media">
+                <img src="./assets/menu-bourbon-coldbrew.svg" alt="Bourbon Barrel Cold Brew in rock tumbler with clear ice sphere" class="menu-item-img" width="400" height="260" loading="lazy">
+              </div>
+              <div class="menu-item-card-body">
+                <div class="menu-item-top">
+                  <span class="dietary-pill">Aged 30 Days</span>
+                  <span class="menu-item-price">$5.75</span>
+                </div>
+                <h3 class="menu-item-title">Bourbon Barrel Cold Brew</h3>
+                <p class="menu-item-desc">Green coffee beans aged inside charred oak bourbon barrels prior to slow roasting and cold filtration.</p>
+                <div class="tasting-notes">
+                  <span class="note-label">Notes:</span> Bourbon Oak &bull; Madagascar Vanilla &bull; Maple
+                </div>
+                <button type="button" class="btn btn-detail view-detail-btn" aria-label="View flavor notes for Bourbon Barrel Cold Brew" data-modal-target="item-4">
+                  View Tasting Notes
+                </button>
+              </div>
+            </article>
+
+            <!-- Item 5 -->
+            <article class="menu-item-card" data-category="bakery" data-name="Normandy Butter Croissant" data-price="4.25" data-origin="Fresh In-House" data-notes="Layered Butter, Flaky Sea Salt, Golden Crumb" data-img="./assets/menu-croissant.svg">
+              <div class="menu-item-media">
+                <img src="./assets/menu-croissant.svg" alt="Normandy Butter Croissant golden and flaky on ceramic plate" class="menu-item-img" width="400" height="260" loading="lazy">
+              </div>
+              <div class="menu-item-card-body">
+                <div class="menu-item-top">
+                  <span class="dietary-pill">Vegetarian</span>
+                  <span class="menu-item-price">$4.25</span>
+                </div>
+                <h3 class="menu-item-title">Normandy Butter Croissant</h3>
+                <p class="menu-item-desc">Classic 72-layer laminated pastry made with cultured French butter and organic stone-ground flour.</p>
+                <div class="tasting-notes">
+                  <span class="note-label">Notes:</span> Rich Cream &bull; Hazelnut Aroma &bull; Flaky Texture
+                </div>
+                <button type="button" class="btn btn-detail view-detail-btn" aria-label="View flavor notes for Normandy Butter Croissant" data-modal-target="item-5">
+                  View Tasting Notes
+                </button>
+              </div>
+            </article>
+
+            <!-- Item 6 -->
+            <article class="menu-item-card" data-category="bakery" data-name="Cardamom Pistachio Morning Roll" data-price="4.95" data-origin="Fresh In-House" data-notes="Crushed Pistachio, Cardamom Glaze, Brioche" data-img="./assets/menu-pistachio-roll.svg">
+              <div class="menu-item-media">
+                <img src="./assets/menu-pistachio-roll.svg" alt="Cardamom Pistachio Morning Roll fresh brioche twist with pistachios" class="menu-item-img" width="400" height="260" loading="lazy">
+              </div>
+              <div class="menu-item-card-body">
+                <div class="menu-item-top">
+                  <span class="dietary-pill">Bakers Signature</span>
+                  <span class="menu-item-price">$4.95</span>
+                </div>
+                <h3 class="menu-item-title">Cardamom Pistachio Morning Roll</h3>
+                <p class="menu-item-desc">Swedish-inspired brioche twist infused with fresh cracked green cardamom and roasted Iranian pistachios.</p>
+                <div class="tasting-notes">
+                  <span class="note-label">Notes:</span> Aromatic Spice &bull; Toasted Nut &bull; Citrus Glaze
+                </div>
+                <button type="button" class="btn btn-detail view-detail-btn" aria-label="View flavor notes for Cardamom Pistachio Morning Roll" data-modal-target="item-6">
+                  View Tasting Notes
+                </button>
+              </div>
+            </article>
+
+            <!-- Item 7 -->
+            <article class="menu-item-card" data-category="specialties" data-name="Dolce Brezza Sea Salt Macchiato" data-price="5.65" data-origin="House Concoction" data-notes="Salted Caramel, Espresso, Sweet Cream Foam" data-img="./assets/menu-macchiato.svg">
+              <div class="menu-item-media">
+                <img src="./assets/menu-macchiato.svg" alt="Dolce Brezza Sea Salt Macchiato with caramel foam and espresso layers" class="menu-item-img" width="400" height="260" loading="lazy">
+              </div>
+              <div class="menu-item-card-body">
+                <div class="menu-item-top">
+                  <span class="dietary-pill">Top Seller</span>
+                  <span class="menu-item-price">$5.65</span>
+                </div>
+                <h3 class="menu-item-title">Dolce Brezza Sea Salt Macchiato</h3>
+                <p class="menu-item-desc">Layers of Madagascar vanilla bean milk, bold espresso, and a sea salt caramel cold cream topper.</p>
+                <div class="tasting-notes">
+                  <span class="note-label">Notes:</span> Sea Salt &bull; Creamy Caramel &bull; Velvety Foam
+                </div>
+                <button type="button" class="btn btn-detail view-detail-btn" aria-label="View flavor notes for Dolce Brezza Sea Salt Macchiato" data-modal-target="item-7">
+                  View Tasting Notes
+                </button>
+              </div>
+            </article>
+
+            <!-- Item 8 -->
+            <article class="menu-item-card" data-category="specialties" data-name="Kyoto Iced Matcha Blossom" data-price="5.95" data-origin="Uji, Kyoto" data-notes="Ceremonial Matcha, Lavender Blossom, Oat" data-img="./assets/menu-matcha.svg">
+              <div class="menu-item-media">
+                <img src="./assets/menu-matcha.svg" alt="Kyoto Iced Matcha Blossom with emerald ceremonial matcha and lavender" class="menu-item-img" width="400" height="260" loading="lazy">
+              </div>
+              <div class="menu-item-card-body">
+                <div class="menu-item-top">
+                  <span class="dietary-pill">Vegan</span>
+                  <span class="menu-item-price">$5.95</span>
+                </div>
+                <h3 class="menu-item-title">Kyoto Iced Matcha Blossom</h3>
+                <p class="menu-item-desc">First-harvest organic Uji ceremonial grade matcha hand-whisked with subtle lavender reduction and chilled oat milk.</p>
+                <div class="tasting-notes">
+                  <span class="note-label">Notes:</span> Umami Sweetness &bull; Floral Lavender &bull; Silky Cream
+                </div>
+                <button type="button" class="btn btn-detail view-detail-btn" aria-label="View flavor notes for Kyoto Iced Matcha Blossom" data-modal-target="item-8">
+                  View Tasting Notes
+                </button>
+              </div>
+            </article>
+          </div>
+
+          <!-- Interactive Accordion Feature (FAQs / Brewing Insights) -->
+          <div class="interactive-accordion-wrap">
+            <h3 class="accordion-headline">Frequently Asked Questions &amp; Brewing Philosophy</h3>
+            <div class="accordion" id="faq-accordion" role="region" aria-label="FAQ Accordion">
+              
+              <!-- Accordion Item 1 -->
+              <div class="accordion-item">
+                <button type="button" class="accordion-header" id="faq-btn-1" aria-expanded="false" aria-controls="faq-content-1">
+                  <span>How do you source and roast your coffee beans?</span>
+                  <svg class="accordion-chevron" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div class="accordion-content" id="faq-content-1" role="region" aria-labelledby="faq-btn-1" hidden>
+                  <p>We source 100% direct-trade coffee directly from family-run farms in Colombia, Ethiopia, and Guatemala. We pay well above fair-trade minimums and roast on a high-efficiency zero-emission bellwether roaster in small 5kg batches every Tuesday and Friday.</p>
+                </div>
+              </div>
+
+              <!-- Accordion Item 2 -->
+              <div class="accordion-item">
+                <button type="button" class="accordion-header" id="faq-btn-2" aria-expanded="false" aria-controls="faq-content-2">
+                  <span>Do you provide dairy-free or gluten-conscious options?</span>
+                  <svg class="accordion-chevron" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div class="accordion-content" id="faq-content-2" role="region" aria-labelledby="faq-btn-2" hidden>
+                  <p>Absolutely. We steam barista-blend oat milk, house-pressed almond milk, and coconut milk at no extra charge. We also prepare gluten-free almond flour friands and vegan breakfast pots daily in a dedicated sanitized workstation.</p>
+                </div>
+              </div>
+
+              <!-- Accordion Item 3 -->
+              <div class="accordion-item">
+                <button type="button" class="accordion-header" id="faq-btn-3" aria-expanded="false" aria-controls="faq-content-3">
+                  <span>Can I book a table or reserve the café for private gatherings?</span>
+                  <svg class="accordion-chevron" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                </button>
+                <div class="accordion-content" id="faq-content-3" role="region" aria-labelledby="faq-btn-3" hidden>
+                  <p>Yes! During regular daytime hours, we operate on a friendly walk-in basis with plenty of seating. After 6:00 PM, our lounge is available for book club meetups, private cupping workshops, and celebrations. Use our contact form below to reserve!</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Accessible Interactive Modal Window -->
+        <dialog class="accessible-modal" id="item-modal" aria-labelledby="modal-title" aria-modal="true">
+          <div class="modal-card">
+            <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close dialog window">&times;</button>
+            <div class="modal-media">
+              <img id="modal-img" src="./assets/menu-espresso.svg" alt="Item tasting preview" class="modal-img" width="400" height="260">
+            </div>
+            <div class="modal-header">
+              <span class="badge badge-accent" id="modal-badge">Tasting Profile</span>
+              <h3 id="modal-title" class="modal-item-title">Item Title</h3>
+              <p class="modal-price" id="modal-price">$0.00</p>
+            </div>
+            <div class="modal-body" id="modal-body-content">
+              <p id="modal-desc" class="modal-desc">Detailed item description goes here.</p>
+              <div class="modal-meta-box">
+                <div class="meta-row">
+                  <span class="meta-label">Origin / Source:</span>
+                  <span class="meta-value" id="modal-origin">Direct Origin</span>
+                </div>
+                <div class="meta-row">
+                  <span class="meta-label">Sensory Notes:</span>
+                  <span class="meta-value" id="modal-notes">Flavor Profiles</span>
+                </div>
+              </div>
+            </div>
+            <div class="modal-actions">
+              <a href="#contact" class="btn btn-primary modal-cta-btn" id="modal-order-btn">Order / Inquire Now</a>
+              <button type="button" class="btn btn-outline" id="modal-dismiss-btn">Close</button>
+            </div>
+          </div>
+        </dialog>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         RECRUITMENT SECTION (Recruit new members per AGENTS.md Primary Goal)
+         ======================================================== -->
+    <section class="recruitment-section" id="recruitment" aria-labelledby="recruitment-heading">
+      <div class="container">
+        <header class="section-header text-center">
+          <span class="section-tag">Grow With Us</span>
+          <h2 id="recruitment-heading" class="section-title">Join the Dolce Brezza Family</h2>
+          <p class="section-subtitle">
+            We are always seeking passionate individuals who love coffee culture, genuine hospitality, and continuous craft learning.
+          </p>
+        </header>
+
+        <div class="recruitment-cards-grid">
+          <!-- Role 1 -->
+          <article class="career-card" aria-labelledby="role-barista-title">
+            <div class="career-badge">Full-Time / Part-Time</div>
+            <h3 id="role-barista-title" class="career-title">Senior Barista &amp; Latte Artist</h3>
+            <p class="career-desc">
+              Master the espresso machine, dial in single-origin dials every morning, and create unforgettable customer experiences.
+            </p>
+            <ul class="career-perks">
+              <li>Comprehensive SCA Barista Certification Support</li>
+              <li>Competitive living wage + pooled tips ($22-$27/hr)</li>
+              <li>Free daily coffee &amp; pastry allowance</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline career-apply-btn" aria-label="Apply for Senior Barista role">Apply via Contact Form &rarr;</a>
+          </article>
+
+          <!-- Role 2 -->
+          <article class="career-card" aria-labelledby="role-baker-title">
+            <div class="career-badge">Morning Shift</div>
+            <h3 id="role-baker-title" class="career-title">Artisan Pastry Baker</h3>
+            <p class="career-desc">
+              Lead the morning viennoiserie lamination, sourdough fermentation, and seasonal tart creation in our sunlit open bakery.
+            </p>
+            <ul class="career-perks">
+              <li>Early morning schedule (5:00 AM - 1:00 PM)</li>
+              <li>Generous health and dental insurance</li>
+              <li>Creative freedom on seasonal dessert specials</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline career-apply-btn" aria-label="Apply for Artisan Pastry Baker role">Apply via Contact Form &rarr;</a>
+          </article>
+
+          <!-- Role 3 -->
+          <article class="career-card" aria-labelledby="role-manager-title">
+            <div class="career-badge">Full-Time</div>
+            <h3 id="role-manager-title" class="career-title">Hospitality &amp; Community Lead</h3>
+            <p class="career-desc">
+              Coordinate local community cuppings, manage front-of-house warmth, and ensure our cafe remains an inspiring sanctuary for everyone.
+            </p>
+            <ul class="career-perks">
+              <li>Structured career advancement pathways</li>
+              <li>Paid wellness days and flexible scheduling</li>
+              <li>Quarterly team retreat &amp; coffee farm trips</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline career-apply-btn" aria-label="Apply for Hospitality Lead role">Apply via Contact Form &rarr;</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         5. CONTACT / CTA SECTION
+         Working static contact form UI and direct contact cards
+         ======================================================== -->
+    <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <header class="section-header text-center">
+          <span class="section-tag">We'd Love to Meet You</span>
+          <h2 id="contact-heading" class="section-title">Visit Our Café or Drop a Line</h2>
+          <p class="section-subtitle">
+            Reserve a table, inquire about catering, submit a team application, or simply ask about this week's single-origin roast.
+          </p>
+        </header>
+
+        <div class="contact-grid">
+          <!-- Direct Contact Cards -->
+          <div class="contact-cards-column" aria-label="Direct contact details">
+            <!-- Card 1: Location -->
+            <div class="contact-info-card">
+              <div class="contact-card-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div class="contact-card-info">
+                <h3 class="contact-card-title">Café Location</h3>
+                <address class="contact-card-address">
+                  428 Breeze Promenade, Oceanview Pier<br>
+                  San Diego, CA 92101
+                </address>
+                <span class="contact-card-sub">Valet parking &amp; bicycle stands available</span>
+              </div>
+            </div>
+
+            <!-- Card 2: Operating Hours -->
+            <div class="contact-info-card">
+              <div class="contact-card-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              </div>
+              <div class="contact-card-info">
+                <h3 class="contact-card-title">Operating Hours</h3>
+                <p class="contact-card-text">
+                  <strong>Monday &ndash; Friday:</strong> 6:30 AM &ndash; 7:00 PM<br>
+                  <strong>Saturday &ndash; Sunday:</strong> 7:30 AM &ndash; 8:00 PM
+                </p>
+                <span class="contact-card-sub">Espresso bar closes 15 mins prior to closing</span>
+              </div>
+            </div>
+
+            <!-- Card 3: Direct Phone & Email -->
+            <div class="contact-info-card">
+              <div class="contact-card-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div class="contact-card-info">
+                <h3 class="contact-card-title">Phone &amp; Direct Inquiries</h3>
+                <p class="contact-card-text">
+                  <a href="tel:+15553652399" class="contact-link" aria-label="Call Dolce Brezza Cafe at +1 555-365-2399">+1 (555) DOLCE-99</a><br>
+                  <a href="mailto:hello@dolcebrezzacafe.com" class="contact-link" aria-label="Email Dolce Brezza at hello@dolcebrezzacafe.com">hello@dolcebrezzacafe.com</a>
+                </p>
+                <span class="contact-card-sub">Quick response within 24 hours</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Working Static Contact Form UI -->
+          <div class="contact-form-container">
+            <form class="contact-form" id="contact-form" novalidate aria-label="Direct message and inquiry form">
+              <h3 class="form-heading">Send Us a Message</h3>
+              <p class="form-subheading">Fill in your information and we will get back to you promptly.</p>
+
+              <!-- Form Status Banner (Live feedback for screen readers) -->
+              <div class="form-alert" id="form-alert" role="status" aria-live="polite" hidden></div>
+
+              <!-- Name & Email Row -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">Full Name <span class="required" aria-hidden="true">*</span></label>
+                  <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Elena Rostova" required aria-required="true" autocomplete="name">
+                  <span class="field-error-msg" id="name-error" aria-live="polite"></span>
+                </div>
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">Email Address <span class="required" aria-hidden="true">*</span></label>
+                  <input type="email" id="contact-email" name="email" class="form-input" placeholder="elena@example.com" required aria-required="true" autocomplete="email">
+                  <span class="field-error-msg" id="email-error" aria-live="polite"></span>
+                </div>
+              </div>
+
+              <!-- Inquiry Type & Phone -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="inquiry-type" class="form-label">Inquiry Subject <span class="required" aria-hidden="true">*</span></label>
+                  <select id="inquiry-type" name="inquiryType" class="form-select" required aria-required="true">
+                    <option value="" disabled selected>Select an inquiry type</option>
+                    <option value="reservation">Table Reservation / Tasting Session</option>
+                    <option value="career">Job Application / Join the Team</option>
+                    <option value="catering">Event Catering &amp; Bulk Roasts</option>
+                    <option value="feedback">General Inquiries &amp; Feedback</option>
+                  </select>
+                  <span class="field-error-msg" id="inquiry-error" aria-live="polite"></span>
+                </div>
+                <div class="form-group">
+                  <label for="contact-phone" class="form-label">Phone Number <span class="optional">(Optional)</span></label>
+                  <input type="tel" id="contact-phone" name="phone" class="form-input" placeholder="(555) 000-0000" autocomplete="tel">
+                </div>
+              </div>
+
+              <!-- Message Field -->
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Your Message <span class="required" aria-hidden="true">*</span></label>
+                <textarea id="contact-message" name="message" class="form-textarea" rows="4" placeholder="Tell us how we can help, or introduce yourself for open roles..." required aria-required="true"></textarea>
+                <span class="field-error-msg" id="message-error" aria-live="polite"></span>
+              </div>
+
+              <!-- Submit Button -->
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary form-submit-btn" id="submit-btn">
+                  <span>Send Message</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================
+       6. FOOTER
+       Copyright, quick links, social media links, accessible landmarks
+       ======================================================== -->
+  <footer class="site-footer" id="site-footer" role="contentinfo">
+    <div class="container footer-container">
+      <!-- Col 1: Brand Info -->
+      <div class="footer-col brand-col">
+        <a href="./index.html" class="footer-brand" aria-label="Dolce Brezza Home">
+          <img src="./assets/logo.svg" alt="Dolce Brezza Café Logo" width="180" height="45" class="footer-logo">
+        </a>
+        <p class="footer-bio">
+          Where artisanal coffee meets tranquil coastal breezes. Slow down, sip deeply, and find your warm haven in every cup.
+        </p>
+        <div class="footer-accreditation">
+          <span class="accreditation-badge">Certified Specialty Coffee Association (SCA) Partner</span>
+        </div>
+      </div>
+
+      <!-- Col 2: Quick Links -->
+      <nav class="footer-col" aria-label="Footer Quick Links">
+        <h3 class="footer-heading">Quick Navigation</h3>
+        <ul class="footer-links-list" role="list">
+          <li><a href="#hero" class="footer-link">Home</a></li>
+          <li><a href="#core-offerings" class="footer-link">Artisanal Offerings</a></li>
+          <li><a href="#about-experience" class="footer-link">Our Story &amp; Space</a></li>
+          <li><a href="#interactive-menu" class="footer-link">Interactive Menu</a></li>
+          <li><a href="#recruitment" class="footer-link">Join Our Team</a></li>
+          <li><a href="#contact" class="footer-link">Contact &amp; Reservations</a></li>
+        </ul>
+      </nav>
+
+      <!-- Col 3: Hours & Location -->
+      <div class="footer-col">
+        <h3 class="footer-heading">Café Hours</h3>
+        <ul class="footer-hours-list" role="list">
+          <li><span>Monday &ndash; Friday:</span> <strong>6:30 AM &ndash; 7:00 PM</strong></li>
+          <li><span>Saturday &ndash; Sunday:</span> <strong>7:30 AM &ndash; 8:00 PM</strong></li>
+          <li><span>Holidays:</span> <strong>8:00 AM &ndash; 4:00 PM</strong></li>
+        </ul>
+        <p class="footer-address">
+          428 Breeze Promenade, Oceanview Pier<br>
+          San Diego, CA 92101
+        </p>
+      </div>
+
+      <!-- Col 4: Social Links & Community -->
+      <div class="footer-col">
+        <h3 class="footer-heading">Connect With Us</h3>
+        <p class="footer-social-desc">Follow along for weekly micro-lot coffee drops and barista workshops.</p>
+        <div class="social-links-group" role="region" aria-label="Social media profiles">
+          <!-- Instagram -->
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Follow Dolce Brezza on Instagram (opens in new tab)">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+          <!-- Facebook -->
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Follow Dolce Brezza on Facebook (opens in new tab)">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+          </a>
+          <!-- X / Twitter -->
+          <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Follow Dolce Brezza on X Twitter (opens in new tab)">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4l11.733 16h4.267l-11.733 -16z"></path><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom Row -->
+    <div class="footer-bottom-bar">
+      <div class="container footer-bottom-inner">
+        <p class="copyright-text">
+          &copy; <span id="current-year">2026</span> Dolce Brezza Café &amp; Roastery. All rights reserved. Handcrafted with passion.
+        </p>
+        <div class="footer-legal-links">
+          <a href="#hero" class="back-to-top-link" aria-label="Back to top of the page">
+            <span>Back to top</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Relative JavaScript Link -->
+  <script src="./script.js" defer></script>
+</body>
+</html>

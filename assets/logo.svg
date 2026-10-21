@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60" fill="none" role="img" aria-label="Dolce Brezza Logo">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E1903E"/>
+      <stop offset="100%" stop-color="#EFCE7B"/>
+    </linearGradient>
+  </defs>
+  <!-- Coffee Cup Icon -->
+  <g transform="translate(10, 8)">
+    <circle cx="22" cy="22" r="21" fill="url(#logoGrad)" opacity="0.15"/>
+    <path d="M12 18 C12 28, 16 34, 25 34 C34 34, 38 28, 38 18 Z" fill="#E1903E"/>
+    <path d="M38 20 C42 20, 44 23, 44 26 C44 29, 41 31, 37 31" stroke="#E1903E" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Steam Curves -->
+    <path d="M19 14 C18 10, 21 8, 20 5" stroke="#EFCE7B" stroke-width="2" stroke-linecap="round"/>
+    <path d="M25 14 C24 9, 27 7, 26 4" stroke="#E1903E" stroke-width="2" stroke-linecap="round"/>
+    <path d="M31 14 C30 10, 33 8, 32 5" stroke="#EFCE7B" stroke-width="2" stroke-linecap="round"/>
+    <!-- Saucer line -->
+    <path d="M10 38 L40 38" stroke="#E1903E" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <!-- Brand Name Typography -->
+  <text x="68" y="28" font-family="'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="700" fill="#0F172A" letter-spacing="0.5">Dolce Brezza</text>
+  <text x="69" y="44" font-family="'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="600" fill="#E1903E" letter-spacing="2.5">CAFÉ &amp; ROASTERY</text>
+</svg>

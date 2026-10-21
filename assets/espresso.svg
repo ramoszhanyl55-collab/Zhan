@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" fill="none" role="img" aria-label="Rich double shot espresso with golden crema">
+  <defs>
+    <radialGradient id="espressoBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E1903E" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cupEspresso" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D3748"/>
+      <stop offset="100%" stop-color="#1A202C"/>
+    </linearGradient>
+    <radialGradient id="crema" cx="45%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#EFCE7B"/>
+      <stop offset="50%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="#F8FAFC"/>
+  <circle cx="200" cy="150" r="120" fill="url(#espressoBg)"/>
+  <!-- Saucer -->
+  <ellipse cx="200" cy="220" rx="110" ry="22" fill="#E2E8F0"/>
+  <ellipse cx="200" cy="218" rx="80" ry="14" fill="#CBD5E1"/>
+  <!-- Espresso Cup -->
+  <path d="M140 140 C140 210, 160 220, 200 220 C240 220, 260 210, 260 140 Z" fill="url(#cupEspresso)"/>
+  <!-- Handle -->
+  <path d="M255 150 C290 150, 290 190, 250 195" stroke="#2D3748" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <!-- Crema surface -->
+  <ellipse cx="200" cy="140" rx="60" ry="20" fill="url(#crema)"/>
+  <!-- Steam -->
+  <path d="M185 110 C180 90, 195 80, 190 60" stroke="#E1903E" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M210 115 C215 95, 205 85, 212 65" stroke="#EFCE7B" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+</svg>

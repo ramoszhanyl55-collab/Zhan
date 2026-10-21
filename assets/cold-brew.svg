@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" fill="none" role="img" aria-label="Iced cold brew coffee with crystal ice cubes and citrus slice">
+  <defs>
+    <radialGradient id="coldBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EFCE7B" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="coldBrewLiquid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#854D0E"/>
+      <stop offset="40%" stop-color="#451A03"/>
+      <stop offset="100%" stop-color="#1C0A00"/>
+    </linearGradient>
+    <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4"/>
+      <stop offset="15%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="85%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="#F8FAFC"/>
+  <circle cx="200" cy="150" r="120" fill="url(#coldBg)"/>
+  <!-- Tall glass shape -->
+  <path d="M150 70 L165 240 C166 250, 175 255, 200 255 C225 255, 234 250, 235 240 L250 70 Z" fill="url(#coldBrewLiquid)"/>
+  <!-- Glass highlights -->
+  <path d="M150 70 L165 240 C166 250, 175 255, 200 255 C225 255, 234 250, 235 240 L250 70 Z" fill="url(#glassGrad)" stroke="#CBD5E1" stroke-width="2"/>
+  <!-- Rim -->
+  <ellipse cx="200" cy="70" rx="50" ry="12" fill="#E2E8F0" fill-opacity="0.5" stroke="#94A3B8" stroke-width="1.5"/>
+  <!-- Ice cubes inside glass -->
+  <rect x="180" y="100" width="35" height="35" rx="5" fill="#FFFFFF" fill-opacity="0.45" stroke="#FFFFFF" stroke-width="1.5" transform="rotate(15 197 117)"/>
+  <rect x="175" y="145" width="38" height="38" rx="6" fill="#FFFFFF" fill-opacity="0.35" stroke="#FFFFFF" stroke-width="1.5" transform="rotate(-10 194 164)"/>
+  <!-- Orange Slice Garnish on rim -->
+  <circle cx="235" cy="70" r="28" fill="#F97316"/>
+  <circle cx="235" cy="70" r="24" fill="#FED7AA"/>
+  <circle cx="235" cy="70" r="20" fill="#FB923C"/>
+  <path d="M235 50 L235 90 M215 70 L255 70 M221 56 L249 84 M221 84 L249 56" stroke="#FED7AA" stroke-width="1.5"/>
+  <!-- Straw -->
+  <path d="M175 40 L195 190" stroke="#E1903E" stroke-width="6" stroke-linecap="round"/>
+</svg>

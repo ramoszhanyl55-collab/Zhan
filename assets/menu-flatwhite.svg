@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260" fill="none" role="img" aria-label="Velvet Honey Oat Flat White with delicate latte art">
+  <defs>
+    <radialGradient id="flatWhiteGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EFCE7B" stop-opacity="0.35"/>
+      <stop offset="70%" stop-color="#E1903E" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cupWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="coffeeBase" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#854D0E"/>
+      <stop offset="100%" stop-color="#582910"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" rx="14" fill="#F8FAFC"/>
+  <circle cx="200" cy="130" r="105" fill="url(#flatWhiteGlow)"/>
+  <!-- Saucer -->
+  <ellipse cx="200" cy="190" rx="115" ry="26" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <ellipse cx="200" cy="188" rx="85" ry="16" fill="#F1F5F9"/>
+  <!-- Ceramic Cup -->
+  <path d="M135 110 C135 185, 160 195, 200 195 C240 195, 265 185, 265 110 Z" fill="url(#cupWhite)" stroke="#E2E8F0" stroke-width="1.5"/>
+  <!-- Handle -->
+  <path d="M255 120 C295 120, 300 168, 250 174" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <path d="M255 120 C295 120, 300 168, 250 174" stroke="#CBD5E1" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Coffee Foam Surface -->
+  <ellipse cx="200" cy="110" rx="65" ry="22" fill="url(#coffeeBase)"/>
+  <!-- Microfoam Rosette Latte Art -->
+  <g opacity="0.95">
+    <ellipse cx="200" cy="110" rx="48" ry="14" fill="#FEF3C7" opacity="0.3"/>
+    <!-- Heart petals -->
+    <path d="M200 122 C180 108, 175 92, 200 88 C225 92, 220 108, 200 122 Z" fill="#FFFDF8"/>
+    <path d="M200 114 C185 104, 182 92, 200 92 C218 92, 215 104, 200 114 Z" fill="#E1903E" opacity="0.35"/>
+    <path d="M200 105 C190 98, 188 90, 200 90 C212 90, 210 98, 200 105 Z" fill="#FFFDF8"/>
+    <line x1="200" y1="88" x2="200" y2="124" stroke="#B45309" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+  <!-- Floating Steam -->
+  <path d="M185 75 C180 58, 192 48, 186 32" stroke="#E1903E" stroke-width="2.5" stroke-linecap="round" opacity="0.55"/>
+  <path d="M215 80 C220 62, 208 52, 215 35" stroke="#EFCE7B" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+</svg>

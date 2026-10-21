@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260" fill="none" role="img" aria-label="Kyoto Iced Matcha Blossom with emerald green ceremonial matcha layer">
+  <defs>
+    <radialGradient id="matchaGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#86EFAC" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#EFCE7B" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="oatMilkBase" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FEF9EC"/>
+      <stop offset="100%" stop-color="#FDE68A"/>
+    </linearGradient>
+    <linearGradient id="matchaTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22C55E"/>
+      <stop offset="50%" stop-color="#16A34A"/>
+      <stop offset="100%" stop-color="#15803D"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" rx="14" fill="#F8FAFC"/>
+  <circle cx="200" cy="130" r="105" fill="url(#matchaGlow)"/>
+  <!-- Coaster -->
+  <ellipse cx="200" cy="215" rx="75" ry="16" fill="#E2E8F0"/>
+  <!-- Chilled Glass -->
+  <!-- Chilled Oat Milk Bottom Layer -->
+  <path d="M165 130 L174 205 C175 211, 184 215, 200 215 C216 215, 225 211, 226 205 L235 130 Z" fill="url(#oatMilkBase)"/>
+  <!-- Swirling Marbled Matcha Gradient Middle -->
+  <path d="M162 90 L165 130 C180 120, 195 135, 205 125 C215 115, 225 132, 235 130 L238 90 Z" fill="#4ADE80" opacity="0.8"/>
+  <!-- Vibrant Emerald Ceremonial Matcha Top -->
+  <path d="M158 55 L162 90 L238 90 L242 55 Z" fill="url(#matchaTop)"/>
+  <ellipse cx="200" cy="55" rx="42" ry="11" fill="#15803D"/>
+  <ellipse cx="200" cy="54" rx="38" ry="9" fill="#16A34A"/>
+  <!-- Glass Rim & Reflection -->
+  <path d="M158 55 L174 205 C175 211, 184 215, 200 215 C216 215, 225 211, 226 205 L242 55 Z" stroke="#CBD5E1" stroke-width="2" fill="none"/>
+  <!-- Ice cubes floating -->
+  <rect x="178" y="70" width="22" height="22" rx="4" fill="#FFFFFF" fill-opacity="0.5" stroke="#FFFFFF" stroke-width="1.2" transform="rotate(20 189 81)"/>
+  <rect x="202" y="95" width="22" height="22" rx="4" fill="#FFFFFF" fill-opacity="0.4" stroke="#FFFFFF" stroke-width="1.2" transform="rotate(-15 213 106)"/>
+  <!-- Dried Lavender Petals on Top -->
+  <ellipse cx="188" cy="53" rx="4" ry="2" fill="#A855F7" transform="rotate(-30 188 53)"/>
+  <ellipse cx="212" cy="55" rx="4" ry="2" fill="#C084FC" transform="rotate(25 212 55)"/>
+</svg>

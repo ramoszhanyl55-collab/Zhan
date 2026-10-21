@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260" fill="none" role="img" aria-label="Normandy Butter Croissant golden and flaky on artisan plate">
+  <defs>
+    <radialGradient id="croissantGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EFCE7B" stop-opacity="0.35"/>
+      <stop offset="70%" stop-color="#E1903E" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="crustLayer" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="35%" stop-color="#E1903E"/>
+      <stop offset="75%" stop-color="#EFCE7B"/>
+      <stop offset="100%" stop-color="#92400E"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" rx="14" fill="#F8FAFC"/>
+  <circle cx="200" cy="130" r="105" fill="url(#croissantGlow)"/>
+  <!-- Ceramic Plate -->
+  <ellipse cx="200" cy="180" rx="125" ry="28" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <ellipse cx="200" cy="178" rx="100" ry="18" fill="#F1F5F9"/>
+  <!-- Croissant Center Body -->
+  <ellipse cx="200" cy="145" rx="55" ry="38" fill="url(#crustLayer)"/>
+  <!-- Croissant Left Wing -->
+  <path d="M165 150 C125 155, 105 172, 128 180 C150 185, 172 165, 182 155 Z" fill="url(#crustLayer)"/>
+  <!-- Croissant Right Wing -->
+  <path d="M235 150 C275 155, 295 172, 272 180 C250 185, 228 165, 218 155 Z" fill="url(#crustLayer)"/>
+  <!-- Golden Crust Scoring & Flaky Layers -->
+  <path d="M168 132 C188 122, 212 122, 232 132" stroke="#92400E" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+  <path d="M155 145 C185 135, 215 135, 245 145" stroke="#78350F" stroke-width="2.8" stroke-linecap="round" fill="none"/>
+  <path d="M145 160 C175 152, 225 152, 255 160" stroke="#78350F" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Sea Salt & Flaky Crumbs -->
+  <circle cx="120" cy="184" r="2.5" fill="#D97706"/>
+  <circle cx="280" cy="184" r="3" fill="#D97706"/>
+  <circle cx="205" cy="190" r="2" fill="#B45309"/>
+</svg>

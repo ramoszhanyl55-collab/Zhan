@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" fill="none" role="img" aria-label="Warm welcoming cafe ambiance with cozy seating and warm lighting">
+  <defs>
+    <radialGradient id="lampGlow" cx="200" cy="80" r="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EFCE7B" stop-opacity="0.45"/>
+      <stop offset="60%" stop-color="#E1903E" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wallGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="url(#wallGrad)"/>
+  <!-- Light cone from lamp -->
+  <path d="M185 70 L90 280 L310 280 L215 70 Z" fill="url(#lampGlow)"/>
+  <!-- Hanging Lamp -->
+  <line x1="200" y1="0" x2="200" y2="50" stroke="#0F172A" stroke-width="3"/>
+  <path d="M170 70 C170 50, 230 50, 230 70 Z" fill="#E1903E"/>
+  <ellipse cx="200" cy="70" rx="30" ry="8" fill="#EFCE7B"/>
+  <circle cx="200" cy="74" r="7" fill="#FFFBEB"/>
+  <!-- Wooden Table -->
+  <ellipse cx="200" cy="225" rx="120" ry="30" fill="#92400E"/>
+  <ellipse cx="200" cy="221" rx="116" ry="26" fill="#B45309"/>
+  <!-- Table Leg -->
+  <path d="M194 225 L190 290 L210 290 L206 225 Z" fill="#78350F"/>
+  <ellipse cx="200" cy="290" rx="40" ry="8" fill="#451A03"/>
+  <!-- Plant on Table -->
+  <path d="M130 190 L125 210 L145 210 L140 190 Z" fill="#FFFFFF"/>
+  <path d="M135 190 Q120 170 115 160 Q130 165 135 190" fill="#15803D"/>
+  <path d="M135 190 Q145 165 155 162 Q145 175 135 190" fill="#16A34A"/>
+  <!-- Cup on Table -->
+  <ellipse cx="230" cy="210" rx="16" ry="6" fill="#FFFFFF"/>
+  <path d="M220 200 C220 215, 240 215, 240 200 Z" fill="#FFFFFF"/>
+  <ellipse cx="230" cy="200" rx="10" ry="3" fill="#6F3918"/>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260" fill="none" role="img" aria-label="Golden Crema Espresso in ceramic cup">
+  <defs>
+    <radialGradient id="espressoGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EFCE7B" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#E1903E" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cupGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <radialGradient id="cremaGrad1" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#EFCE7B"/>
+      <stop offset="45%" stop-color="#D97706"/>
+      <stop offset="85%" stop-color="#92400E"/>
+      <stop offset="100%" stop-color="#451A03"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="260" rx="14" fill="#F8FAFC"/>
+  <!-- Decorative background circle -->
+  <circle cx="200" cy="130" r="100" fill="url(#espressoGlow)"/>
+  <!-- Ceramic Saucer -->
+  <ellipse cx="200" cy="185" rx="105" ry="24" fill="#E2E8F0"/>
+  <ellipse cx="200" cy="183" rx="75" ry="15" fill="#CBD5E1"/>
+  <!-- Espresso Cup -->
+  <path d="M145 115 C145 180, 165 190, 200 190 C235 190, 255 180, 255 115 Z" fill="url(#cupGrad1)"/>
+  <!-- Cup Handle -->
+  <path d="M250 125 C285 125, 285 165, 245 170" stroke="#1E293B" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <!-- Golden Crema Surface -->
+  <ellipse cx="200" cy="115" rx="55" ry="18" fill="url(#cremaGrad1)"/>
+  <!-- Crema swirls -->
+  <path d="M185 112 C195 108, 210 118, 220 114" stroke="#FEF3C7" stroke-width="1.8" stroke-linecap="round" opacity="0.7"/>
+  <!-- Delicate Steam -->
+  <path d="M188 90 C182 72, 198 62, 190 42" stroke="#E1903E" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+  <path d="M212 95 C218 78, 206 68, 215 48" stroke="#EFCE7B" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+  <!-- Coffee Bean accent -->
+  <g transform="translate(110, 185) rotate(-20)">
+    <ellipse cx="12" cy="8" rx="12" ry="8" fill="#582910"/>
+    <path d="M4 8 C8 10, 16 6, 20 8" stroke="#2B1408" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+</svg>

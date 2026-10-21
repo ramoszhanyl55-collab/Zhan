@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450" fill="none" role="img" aria-label="Freshly brewed artisanal latte with coffee beans and warm cafe glow">
+  <defs>
+    <radialGradient id="warmGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EFCE7B" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#E1903E" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cupGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <linearGradient id="coffeeSurface" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6F3918"/>
+      <stop offset="50%" stop-color="#8B4513"/>
+      <stop offset="100%" stop-color="#4A250E"/>
+    </linearGradient>
+    <linearGradient id="saucerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Ambient Backdrop Glow -->
+  <circle cx="300" cy="225" r="220" fill="url(#warmGlow)"/>
+
+  <!-- Decorative Warm Rings -->
+  <circle cx="300" cy="225" r="190" stroke="#EFCE7B" stroke-width="1.5" stroke-dasharray="6 8" opacity="0.4"/>
+  <circle cx="300" cy="225" r="160" stroke="#E1903E" stroke-width="1" opacity="0.3"/>
+
+  <!-- Decorative Botanical Leaf / Coffee sprigs -->
+  <g opacity="0.4" stroke="#E1903E" stroke-width="2" fill="none">
+    <path d="M120 340 C140 300, 170 280, 200 270 M150 310 C165 295, 175 300, 168 315 M180 285 C195 275, 205 285, 195 298"/>
+    <path d="M480 340 C460 300, 430 280, 400 270 M450 310 C435 295, 425 300, 432 315 M420 285 C405 275, 395 285, 405 298"/>
+  </g>
+
+  <!-- Coffee Saucer -->
+  <ellipse cx="300" cy="330" rx="190" ry="42" fill="url(#saucerGrad)" filter="url(#softShadow)"/>
+  <ellipse cx="300" cy="328" rx="140" ry="26" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="2"/>
+
+  <!-- Ceramic Coffee Cup -->
+  <path d="M190 200 C190 310, 230 330, 300 330 C370 330, 410 310, 410 200 Z" fill="url(#cupGrad)" filter="url(#softShadow)"/>
+
+  <!-- Cup Handle -->
+  <path d="M390 220 C445 220, 455 280, 385 295" stroke="#F1F5F9" stroke-width="24" stroke-linecap="round" fill="none"/>
+  <path d="M390 220 C445 220, 455 280, 385 295" stroke="#E2E8F0" stroke-width="14" stroke-linecap="round" fill="none"/>
+
+  <!-- Cup Rim & Coffee Surface -->
+  <ellipse cx="300" cy="200" rx="110" ry="32" fill="url(#coffeeSurface)"/>
+  <ellipse cx="300" cy="200" rx="110" ry="32" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+
+  <!-- Latte Art - Rosette Pattern -->
+  <g opacity="0.92">
+    <ellipse cx="300" cy="198" rx="75" ry="20" fill="#EFCE7B" opacity="0.25"/>
+    <!-- Heart & leaves in foam -->
+    <path d="M300 214 C270 195, 260 175, 300 170 C340 175, 330 195, 300 214 Z" fill="#FFF8EE"/>
+    <path d="M300 206 C280 195, 275 180, 300 180 C325 180, 320 195, 300 206 Z" fill="#E1903E" opacity="0.3"/>
+    <path d="M300 195 C288 185, 285 178, 300 178 C315 178, 312 185, 300 195 Z" fill="#FFF8EE"/>
+    <path d="M300 170 L300 215" stroke="#C57A2A" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Steam Floating Upwards -->
+  <g opacity="0.75">
+    <path d="M260 160 C245 125, 275 95, 260 60" stroke="#E1903E" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="45 15" fill="none"/>
+    <path d="M300 150 C290 115, 320 85, 305 45" stroke="#EFCE7B" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="50 15" fill="none"/>
+    <path d="M340 160 C355 125, 325 95, 340 60" stroke="#E1903E" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="45 15" fill="none"/>
+  </g>
+
+  <!-- Roasted Coffee Beans -->
+  <!-- Bean 1 -->
+  <g transform="translate(130, 320) rotate(-25)">
+    <ellipse cx="18" cy="12" rx="18" ry="12" fill="#582910"/>
+    <path d="M6 12 C12 15, 24 9, 30 12" stroke="#2B1408" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <!-- Bean 2 -->
+  <g transform="translate(165, 345) rotate(20)">
+    <ellipse cx="16" cy="10" rx="16" ry="10" fill="#6B3315"/>
+    <path d="M5 10 C10 13, 22 7, 27 10" stroke="#36190A" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <!-- Bean 3 -->
+  <g transform="translate(430, 335) rotate(40)">
+    <ellipse cx="18" cy="11" rx="18" ry="11" fill="#582910"/>
+    <path d="M6 11 C12 14, 24 8, 30 11" stroke="#2B1408" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <!-- Bean 4 -->
+  <g transform="translate(460, 310) rotate(-15)">
+    <ellipse cx="15" cy="10" rx="15" ry="10" fill="#6B3315"/>
+    <path d="M5 10 C10 13, 20 7, 25 10" stroke="#36190A" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

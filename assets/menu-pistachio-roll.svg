@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260" fill="none" role="img" aria-label="Cardamom Pistachio Morning Roll fresh baked twist with crushed pistachios">
+  <defs>
+    <radialGradient id="rollGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EFCE7B" stop-opacity="0.35"/>
+      <stop offset="70%" stop-color="#E1903E" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="briocheDough" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="50%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#92400E"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" rx="14" fill="#F8FAFC"/>
+  <circle cx="200" cy="130" r="105" fill="url(#rollGlow)"/>
+  <!-- Plate -->
+  <ellipse cx="200" cy="185" rx="115" ry="25" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <ellipse cx="200" cy="183" rx="90" ry="16" fill="#F1F5F9"/>
+  <!-- Swedish Brioche Twist Bun Knot -->
+  <ellipse cx="200" cy="140" rx="55" ry="42" fill="url(#briocheDough)"/>
+  <path d="M165 130 C175 110, 225 110, 235 130 C245 150, 155 150, 165 130 Z" fill="#B45309" opacity="0.6"/>
+  <path d="M175 120 C185 105, 215 105, 225 120" stroke="#78350F" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M160 142 C180 135, 220 135, 240 142" stroke="#78350F" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <!-- Cardamom Sugar Glaze Shine -->
+  <path d="M175 115 C190 108, 210 108, 225 115" stroke="#FFFBEB" stroke-width="2" stroke-linecap="round" opacity="0.8" fill="none"/>
+  <!-- Chopped Vivid Green Pistachios -->
+  <rect x="172" y="118" width="6" height="4" rx="1.5" fill="#15803D" transform="rotate(15 175 120)"/>
+  <rect x="195" y="108" width="7" height="4" rx="1.5" fill="#16A34A" transform="rotate(-25 198 110)"/>
+  <rect x="218" y="116" width="6" height="5" rx="1.5" fill="#15803D" transform="rotate(30 221 118)"/>
+  <rect x="180" y="135" width="7" height="4" rx="1.5" fill="#16A34A" transform="rotate(10 183 137)"/>
+  <rect x="208" y="132" width="6" height="4" rx="1.5" fill="#15803D" transform="rotate(-15 211 134)"/>
+  <rect x="192" y="145" width="6" height="4" rx="1.5" fill="#16A34A" transform="rotate(45 195 147)"/>
+</svg>

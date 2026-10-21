@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300" fill="none" role="img" aria-label="Dolce Brezza signature honey cinnamon iced macchiato">
+  <defs>
+    <radialGradient id="specBg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E1903E" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="layerMilk" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF7"/>
+      <stop offset="100%" stop-color="#FEF3C7"/>
+    </linearGradient>
+    <linearGradient id="layerEspresso" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#78350F"/>
+      <stop offset="100%" stop-color="#451A03"/>
+    </linearGradient>
+    <linearGradient id="drizzleCaramel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="16" fill="#F8FAFC"/>
+  <circle cx="200" cy="150" r="120" fill="url(#specBg)"/>
+  <!-- Coaster -->
+  <ellipse cx="200" cy="245" rx="85" ry="18" fill="#E2E8F0"/>
+  <!-- Glass Cup -->
+  <!-- Bottom milk layer -->
+  <path d="M162 165 L170 235 C171 242, 178 245, 200 245 C222 245, 229 242, 230 235 L238 165 Z" fill="url(#layerMilk)"/>
+  <!-- Middle espresso layer -->
+  <path d="M157 110 L162 165 L238 165 L243 110 Z" fill="url(#layerEspresso)"/>
+  <!-- Top foam dome -->
+  <path d="M152 75 L157 110 L243 110 L248 75 Z" fill="#FFFBEB"/>
+  <ellipse cx="200" cy="72" rx="49" ry="14" fill="#FFFFFF"/>
+  <path d="M150 65 C170 45, 230 45, 250 65 C240 80, 160 80, 150 65 Z" fill="#FFFDF5"/>
+  <!-- Glass Outline & Reflection -->
+  <path d="M150 65 L170 235 C171 242, 178 245, 200 245 C222 245, 229 242, 230 235 L250 65 Z" stroke="#CBD5E1" stroke-width="2" fill="none"/>
+  <!-- Caramel Drizzle on foam -->
+  <path d="M168 68 Q180 58 192 68 T216 68 T232 68" stroke="url(#drizzleCaramel)" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M175 75 Q188 65 200 75 T225 75" stroke="url(#drizzleCaramel)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Cinnamon Stick -->
+  <rect x="220" y="35" width="8" height="60" rx="3" fill="#78350F" transform="rotate(22 224 65)"/>
+</svg>

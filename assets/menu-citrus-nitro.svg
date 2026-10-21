@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260" fill="none" role="img" aria-label="Amber Citrus Nitro Brew with cascading head and orange peel garnish">
+  <defs>
+    <radialGradient id="nitroGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#EFCE7B" stop-opacity="0.35"/>
+      <stop offset="65%" stop-color="#E1903E" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#F8FAFC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nitroLiquid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDF7E7"/>
+      <stop offset="18%" stop-color="#D97706"/>
+      <stop offset="60%" stop-color="#78350F"/>
+      <stop offset="100%" stop-color="#271104"/>
+    </linearGradient>
+    <linearGradient id="glassLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="20%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="80%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" rx="14" fill="#F8FAFC"/>
+  <circle cx="200" cy="130" r="105" fill="url(#nitroGlow)"/>
+  <!-- Coaster -->
+  <ellipse cx="200" cy="215" rx="75" ry="16" fill="#E2E8F0"/>
+  <!-- Tall Pilsner-style Nitro Glass -->
+  <path d="M162 55 L174 205 C175 210, 185 214, 200 214 C215 214, 225 210, 226 205 L238 55 Z" fill="url(#nitroLiquid)"/>
+  <path d="M162 55 L174 205 C175 210, 185 214, 200 214 C215 214, 225 210, 226 205 L238 55 Z" fill="url(#glassLight)" stroke="#CBD5E1" stroke-width="1.8"/>
+  <!-- Nitro Creamy Cascade Foam Head -->
+  <ellipse cx="200" cy="55" rx="38" ry="10" fill="#FFFDF5"/>
+  <path d="M163 56 C170 70, 180 72, 188 62 C194 74, 204 74, 212 64 C220 72, 230 70, 237 56 Z" fill="#FEF3C7" opacity="0.9"/>
+  <!-- Orange Twist Garnish on Rim -->
+  <path d="M225 45 C240 35, 255 45, 245 60 C238 70, 228 65, 232 50" stroke="#F97316" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M225 45 C240 35, 255 45, 245 60 C238 70, 228 65, 232 50" stroke="#FED7AA" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <!-- Condensation Drops -->
+  <circle cx="178" cy="120" r="2.5" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="182" cy="150" r="2" fill="#FFFFFF" opacity="0.8"/>
+  <circle cx="218" cy="135" r="2.5" fill="#FFFFFF" opacity="0.8"/>
+</svg>
